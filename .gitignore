@@ -38,6 +38,7 @@ project.xcworkspace
 .project
 .settings
 local.properties
+node_modules
 android.iml
 
 # Cocoapods
@@ -59,6 +60,7 @@ buck-out/
 \.buckd/
 android/app/libs
 android/keystores/debug.keystore
+node_modules
 
 # Expo
 .expo/*
