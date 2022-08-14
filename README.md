@@ -28,7 +28,7 @@ import TesseractOcr, { useEventListener } from 'react-native-tessractocr';
 
 
 ```js
-  //progess listener for tessractocr JOB
+  //progess listener for tesseractocr JOB
   useEventListener('onProgressChange', (p) => {
     setprogress(p.percent / 100);
   });
