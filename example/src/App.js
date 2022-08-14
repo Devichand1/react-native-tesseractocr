@@ -78,7 +78,7 @@ export default function TessrectModule() {
         padding: 20,
       }}>
       <Text style={{ marginTop:20, fontSize: 22}}>
-        Tessrect OCR React Native
+        Tesseract OCR React Native
       </Text>
       <View
       style={{
