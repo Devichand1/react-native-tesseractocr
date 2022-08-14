@@ -4,7 +4,7 @@ It can recognize text from remote image(url)
 also support multi-language recognization.
 
 
-For multi-language 
+<h2>For multi-language </h2>
 Just Use '@' between two languages 
 Examples -  for Hindi and english - 'hin@eng'
 ## Installation
