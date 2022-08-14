@@ -9,11 +9,20 @@ npm install react-native-tesseractocr
 ## Usage
 
 ```js
-import { multiply } from "react-native-tesseractocr";
+import TesseractOcr, { useEventListener } from 'react-native-tessractocr';
 
 // ...
 
-const result = await multiply(3, 7);
+  try {
+      const recognizedText = await TesseractOcr.recognize(
+        path,
+        'eng',
+        {},
+      );
+      console.log('text is', recognizedText);
+    } catch (error) {
+      console.log('error is', error);
+    }
 ```
 
 ## Contributing
