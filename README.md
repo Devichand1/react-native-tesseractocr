@@ -1,5 +1,6 @@
 # react-native-tesseractocr
-tesseract ocr wrapper for react-native
+tesseract ocr wrapper for react-native...
+
 ## Installation
 
 ```sh
@@ -25,6 +26,13 @@ import TesseractOcr, { useEventListener } from 'react-native-tessractocr';
     }
 ```
 
+
+```js
+  //progess listener for tessractocr JOB
+  useEventListener('onProgressChange', (p) => {
+    setprogress(p.percent / 100);
+  });
+  ```
 ## Contributing
 
 See the [contributing guide](CONTRIBUTING.md) to learn how to contribute to the repository and the development workflow.
