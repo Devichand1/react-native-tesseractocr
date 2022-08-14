@@ -1,6 +1,12 @@
 # react-native-tesseractocr
 tesseract ocr wrapper for react-native...
+It can recognize text from remote image(url)
+also support multi-language recognization.
 
+
+For multi-language 
+Just Use '@' between two languages 
+Examples -  for Hindi and english - 'hin@eng'
 ## Installation
 
 ```sh
@@ -43,4 +49,3 @@ MIT
 
 ---
 
-Made with [create-react-native-library](https://github.com/callstack/react-native-builder-bob)
