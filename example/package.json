@@ -1,6 +1,6 @@
 {
-  "name": "react-native-tesseractocr-example",
-  "description": "Example app for react-native-tesseractocr",
+  "name": "react-native-tessractocr-example",
+  "description": "Example app for react-native-tessractocr",
   "version": "0.0.1",
   "private": true,
   "scripts": {
@@ -12,7 +12,8 @@
   },
   "dependencies": {
     "react": "17.0.2",
-    "react-native": "0.68.2"
+    "react-native": "0.68.2",
+    "react-native-image-crop-picker": "^0.38.0"
   },
   "devDependencies": {
     "@babel/core": "^7.12.10",

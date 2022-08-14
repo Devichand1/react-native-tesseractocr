@@ -123,8 +123,10 @@ repositories {
 
 
 dependencies {
-    //noinspection GradleDynamicVersion
+    //noinspection GradleDynamicVersion 
+         implementation 'cz.adaptech:tesseract4android:4.1.1'
   implementation "com.facebook.react:react-native:+"
+
 // From node_modules
 }
 

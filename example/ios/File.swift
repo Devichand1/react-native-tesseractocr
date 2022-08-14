@@ -1,6 +1,6 @@
 //
 //  File.swift
-//  TesseractocrExample
+//  TessractocrExample
 //
 
 import Foundation

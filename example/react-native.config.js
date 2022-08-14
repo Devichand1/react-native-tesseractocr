@@ -2,7 +2,7 @@ const path = require('path');
 
 module.exports = {
   dependencies: {
-    'react-native-tesseractocr': {
+    'react-native-tessractocr': {
       root: path.join(__dirname, '..'),
     },
   },
