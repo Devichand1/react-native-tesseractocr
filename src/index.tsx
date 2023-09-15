@@ -7,7 +7,7 @@ const LINKING_ERROR =
   '- You rebuilt the app after installing the package\n' +
   '- You are not using Expo managed workflow\n';
 
-export function useEventListener(eventType:String, listener:any) {
+export function useEventListener(eventType:string, listener:any) {
   useEffect(() => {
     const subscription = DeviceEventEmitter.addListener(eventType, listener);
     return () => {
