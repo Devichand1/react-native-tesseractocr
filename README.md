@@ -8,6 +8,10 @@ It can recognize text from remote image(url)
 also support multi-language recognization.
 
 
+https://github.com/Devichand1/react-native-tesseractocr/assets/57847076/efc378b9-9d57-454f-8cf8-5d4571790fd2
+
+
+
 For multi-language 
 Just Use '@' between two languages 
 Examples -  for Hindi and english - 'hin@eng'
