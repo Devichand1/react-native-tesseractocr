@@ -20,7 +20,7 @@ npm install @devinikhiya/react-native-tesseractocr
 ## Usage
 
 ```js
-import TesseractOcr, { useEventListener } from 'react-native-tessractocr';
+import TesseractOcr, { useEventListener } from '@devinikhiya/react-native-tesseractocr';
 
 // ...
 
