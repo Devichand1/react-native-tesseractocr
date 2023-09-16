@@ -14,7 +14,7 @@ Examples -  for Hindi and english - 'hin@eng'
 ## Installation
 
 ```sh
-npm install react-native-tesseractocr
+npm install @devinikhiya/react-native-tesseractocr
 ```
 
 ## Usage
