@@ -8,6 +8,7 @@ import {
   StyleSheet,
   ScrollView,
   ActivityIndicator,
+  TouchableOpacity,
 } from 'react-native';
 import React, { useEffect, useState } from 'react';
 import ImagePicker from 'react-native-image-crop-picker';
@@ -26,16 +27,17 @@ export default function TessrectModule() {
   });
   useEffect(() => {
     //recoginze text from remote image url
-    recognizeTextFromImage('https://i.stack.imgur.com/0Jl54.png');
+    // recognizeTextFromImage('https://i.stack.imgur.com/0Jl54.png');
   }, []);
 
   const recognizeTextFromImage = async (path) => {
     console.log('recognizeTextFromImage');
     try {
-      const recognizedText = await TesseractOcr.recognize(path, 'hin@eng', {});
+      const recognizedText = await TesseractOcr.recognize(path, 'eng', {});
       console.log('test is', recognizedText);
       setresultText(recognizedText);
     } catch (error) {
+      // error is [Error: java.io.FileNotFoundException: tessdata/eng.traineddata]
       console.log('error is', error);
     }
   };
@@ -75,8 +77,15 @@ export default function TessrectModule() {
         padding: 20,
       }}
     >
-      <Text style={{ marginTop: 20, fontSize: 22 }}>
-        Tesseract OCR React Native
+      <Text
+        style={{
+          marginTop: 20,
+          fontSize: 18,
+          fontWeight: '800',
+          textAlign: 'center',
+        }}
+      >
+        @devinikhiya/react-native-tesseractocr
       </Text>
       <View
         style={{
@@ -151,7 +160,7 @@ export default function TessrectModule() {
           <Text
             style={{
               backgroundColor: '#fff',
-
+              borderColor: '#888',
               borderTopRightRadius: 8,
               borderTopLeftRadius: 8,
               padding: 20,
@@ -161,14 +170,27 @@ export default function TessrectModule() {
           >
             {resultText}
           </Text>
-          <Button
+          <TouchableOpacity
             onPress={() => handleCopy()}
             style={{
               marginTop: 20,
-              marginLeft: 'auto',
+              padding: 10,
+              backgroundColor: '#c3c3c3',
+              borderRadius: 8,
+              alignSelf: 'center',
             }}
             title="Copy Text"
-          />
+          >
+            <Text
+              style={{
+                color: '#000',
+                fontWeight: '600',
+                paddingHorizontal: 30,
+              }}
+            >
+              Copy Text
+            </Text>
+          </TouchableOpacity>
         </View>
       )}
     </ScrollView>
@@ -177,13 +199,13 @@ export default function TessrectModule() {
 
 const styles = StyleSheet.create({
   featureItem: {
-    marginTop: 10,
     flex: 1,
     padding: 10,
-    paddingVertical: 30,
     margin: 5,
+    marginTop: 50,
     borderRadius: 12,
     flexDirection: 'column',
     alignContent: 'center',
+    backgroundColor: 'lightgrey',
   },
 });
