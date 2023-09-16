@@ -8,19 +8,23 @@ It can recognize text from remote image(url)
 also support multi-language recognization.
 
 
+https://github.com/Devichand1/react-native-tesseractocr/assets/57847076/efc378b9-9d57-454f-8cf8-5d4571790fd2
+
+
+
 For multi-language 
 Just Use '@' between two languages 
 Examples -  for Hindi and english - 'hin@eng'
 ## Installation
 
 ```sh
-npm install react-native-tesseractocr
+npm install @devinikhiya/react-native-tesseractocr
 ```
 
 ## Usage
 
 ```js
-import TesseractOcr, { useEventListener } from 'react-native-tessractocr';
+import TesseractOcr, { useEventListener } from '@devinikhiya/react-native-tesseractocr';
 
 // ...
 
@@ -46,6 +50,11 @@ import TesseractOcr, { useEventListener } from 'react-native-tessractocr';
 
 ## TessData
    Strict requirement on language files existing in a referenced "tessdata" folder. 
+   For Android
+
+   Save TessData Files into - android/app/src/main/assets/tessdata
+
+   exaample -  for the language english -  android/app/src/main/assets/tessdata/eng.traineddata
 ## Contributing
 
 See the [contributing guide](CONTRIBUTING.md) to learn how to contribute to the repository and the development workflow.
