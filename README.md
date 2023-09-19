@@ -4,10 +4,10 @@ tesseract ocr wrapper for react-native...
 it Uses - [Tesseract4Android](https://github.com/adaptech-cz/Tesseract4Android) for android.
  [Tesseract-OCR-iOS](https://github.com/gali8/Tesseract-OCR-iOS) for ios (not implemented yet !)
 
-You can 
-💫 recognize text from remote image(url)🕸️
-💫 recognize text with Camera 📷
-💫 recognize text from gallery📱
+You can <br>
+💫 recognize text from remote image(url)🕸️  <br>
+💫 recognize text with Camera 📷  <br>
+💫 recognize text from gallery📱 <br>
 
 also support multi-language recognization.
 
