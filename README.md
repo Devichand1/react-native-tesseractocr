@@ -58,9 +58,9 @@ import TesseractOcr, { useEventListener } from '@devinikhiya/react-native-tesser
    Strict requirement on language files existing in a referenced "tessdata" folder. 
    For Android
 
-   Save TessData Files into - android/app/src/main/assets/tessdata
+   Save TessData Files into - ``` android/app/src/main/assets/tessdata  ```
 
-   exaample -  for the language english -  android/app/src/main/assets/tessdata/eng.traineddata
+   exaample -  for the language english - ``` android/app/src/main/assets/tessdata/eng.traineddata  ```
 ## Contributing
 
 See the [contributing guide](CONTRIBUTING.md) to learn how to contribute to the repository and the development workflow.
