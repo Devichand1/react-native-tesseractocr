@@ -4,6 +4,7 @@
 it Uses - [Tesseract4Android](https://github.com/adaptech-cz/Tesseract4Android) for android.
  [Tesseract-OCR-iOS](https://github.com/gali8/Tesseract-OCR-iOS) for ios (not implemented yet !)
 
+📋 Key Features:
 You can <br>
 💫 recognize text from remote image(url) 🕸️  <br>
 💫 recognize text with Camera  📷  <br>
