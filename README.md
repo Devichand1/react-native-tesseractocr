@@ -1,5 +1,5 @@
 # @devinikhiya/react-native-tesseractocr
-tesseract ocr wrapper for react-native...
+🧠 This package leverages the power of OCR (Optical Character Recognition) technology, making it a breeze to extract text from images in your React Native apps.
 
 it Uses - [Tesseract4Android](https://github.com/adaptech-cz/Tesseract4Android) for android.
  [Tesseract-OCR-iOS](https://github.com/gali8/Tesseract-OCR-iOS) for ios (not implemented yet !)
