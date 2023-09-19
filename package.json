@@ -1,6 +1,6 @@
 {
   "name": "@devinikhiya/react-native-tesseractocr",
-  "version": "0.1.9",
+  "version": "0.1.10",
   "description": "@devinikhiya/react-native-tesseractocr is a react native module that allows you to use the Tesseract OCR library on Android and iOS.",
   "main": "lib/commonjs/index",
   "module": "lib/module/index",
